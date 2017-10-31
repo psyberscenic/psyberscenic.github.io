@@ -86,7 +86,7 @@ a:active{
 .site-main{
   position: relative;
   top: 0%;
-  height: 4050px;
+  height: 3780px;
   width: 850px;
   border-style: solid;
   margin: 0 auto;
@@ -95,10 +95,10 @@ a:active{
 }
 #site-main-content{
   position: relative;
-  top: 5px;
-  left: 5px;
-  height: 4035px;
-  width: 592.5px;
+  top: 0.25%;
+  left: 1%;
+  height: 99.5%;
+  width: 75%;
   border-style: solid;
   float: left;
   background-color: #3B4042;
@@ -108,7 +108,7 @@ a:active{
   position: relative;
   top: 5px;
   left: 1%;
-  height: 60px;
+  height: 1.5%;
   width: 98%;
   border-color: black;
   border-style: solid;
@@ -134,7 +134,7 @@ a:active{
   position: relative;
   top: 10px;
   left: 1%;
-  height: 3915px;
+  height: 97%;
   width: 98%;
   border-style: solid;
   border-color: black;
@@ -162,16 +162,16 @@ a:active{
 }
 #site-main-buffer0{
   position: relative;
-  top: 20px;
+  top: 0.25%;
   height: 10px;
-  width: 10px;
+  width: 1%;
 }
 #site-main-addon{
   position: relative;
-  top: 5px;
+  top: 0.25%;
   bottom: 5px;
-  height: 4035px;
-  width: 235px;
+  height: 99.5%;
+  width: 23%;
   border-style: solid;
   float: left;
   background-color: #3B4042;
@@ -180,49 +180,49 @@ a:active{
 #site-main-addon-title0{
   position: absolute;
   bottom: 605px;
-  left: 5px;
+  left: 1%;
   height: 25px;
-  width: 220px;
+  width: 98%;
   border-style: solid;
 }
 #site-main-addon-title0-content{
   position: absolute;
   bottom: 425px;
-  left: 5px;
+  left: 1%;
   height: 175px;
-  width: 220px;
+  width: 98%;
   border-style: solid;
 }
 #site-main-addon-title1{
   position: absolute;
   bottom: 395px;
-  left: 5px;
+  left: 1%;
   height: 25px;
-  width: 220px;
+  width: 98%;
   border-style: solid;
 }
 #site-main-addon-title1-content{
   position: absolute;
   bottom: 215px;
-  left: 5px;
+  left: 1%;
   height: 175px;
-  width: 220px;
+  width: 98%;
   border-style: solid;
 }
 #site-main-addon-title2{
   position: absolute;
   bottom: 185px;
-  left: 5px;
+  left: 1%;
   height: 25px;
-  width: 220px;
+  width: 98%;
   border-style: solid;
 }
 #site-main-addon-title2-content{
   position: absolute;
   bottom: 5px;
-  left: 5px;
+  left: 1%;
   height: 175px;
-  width: 220px;
+  width: 98%;
   border-style: solid;
 }
 #site-main-buffer1{
