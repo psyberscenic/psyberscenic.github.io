@@ -91,8 +91,7 @@ a:active{
   border-style: solid;
   margin: 0 auto;
   display: flex;
-  background-color: #3B4042;
-  opacity: 0.5;
+  background-color: black;
 }
 #site-main-content{
   position: relative;
@@ -102,12 +101,14 @@ a:active{
   width: 592.5px;
   border-style: solid;
   float: left;
+  background-color: #3B4042;
+  opacity: 0.5;
 }
 #site-main-content-title{
   position: relative;
   top: 5px;
   left: 1%;
-  height: 30px;
+  height: 60px;
   width: 98%;
   border-color: black;
   border-style: solid;
@@ -119,12 +120,15 @@ a:active{
   padding-left: 5px;
   font-weight: bold;
   font-family: sans-serif;
+  background-color: #3B4042;
+  opacity: 0.75;
 }
 #site-main-content-title-content{
   position: relative;
   width: 100%;
   height: 100%;
   text-align: left;
+  font-size: 18px;
 }
 #site-main-content-article{
   position: relative;
@@ -134,10 +138,11 @@ a:active{
   width: 98%;
   border-style: solid;
   border-color: black;
-  opacity: 0.5;
   color: white;
   font-size: 13px;
   font-family: sans-serif;
+  background-color: black;
+  line-height: 25px;
 
 }
 #site-main-content-article-content{
@@ -145,6 +150,8 @@ a:active{
   padding-top: 2.5px;
   padding-left: 5px;
   padding-right: 5px;
+  float: left;
+  font-size: 16px;
 }
 #site-main-content-socialmedia{
   position: relative;
