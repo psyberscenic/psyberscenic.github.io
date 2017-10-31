@@ -66,17 +66,45 @@ a:active{
   background-color: black;
   opacity: 0.5;
   color: white;
+}
+#banner-main-menu-left{
+  position: relative;
+  top: 0%;
+  height: 100%;
+  width: 40%;
+  float: left;
+}
+#banner-main-menu-left-links{
+  color: white;
+  text-align: left;
   font-size: 12px;
   padding-left: 5px;
   font-weight: bold;
   padding-top: 6px;
   font-family: sans-serif;
 }
-#banner-main-menu-links{
+#banner-main-menu-right-links{
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  padding-right: 5px;
+  font-weight: bold;
+  padding-top: 6px;
+  font-family: sans-serif;
+}
+#banner-main-menu-middle{
   position: relative;
-  width: 100%;
+  top: 0%;
   height: 100%;
-  text-align: center;
+  width: 20%;
+  float: left;
+}
+#banner-main-menu-right{
+  position: relative;
+  top: 0%;
+  height: 100%;
+  width: 40%;
+  float: left;
 }
 #site-buffer0{
   position: relative;
@@ -86,7 +114,7 @@ a:active{
 .site-main{
   position: relative;
   top: 0%;
-  height: 4000px;
+  height: 3967.5px;
   width: 850px;
   border-style: solid;
   margin: 0 auto;
@@ -106,7 +134,7 @@ a:active{
   position: relative;
   top: 5px;
   left: 1%;
-  height: 1.5%;
+  height: 8vh;
   width: 98%;
   border-color: black;
   border-style: solid;
@@ -122,7 +150,7 @@ a:active{
 }
 #site-main-content-title-content{
   position: relative;
-  top: 5%;
+  padding: 1px;
   width: 100%;
   height: 100%;
   text-align: left;
@@ -132,7 +160,7 @@ a:active{
   position: relative;
   top: 10px;
   left: 1%;
-  height: 97%;
+  height: 547.5vh;
   width: 100%;
   border-style: solid;
   border-color: black;
@@ -152,8 +180,9 @@ a:active{
 }
 #site-main-content-socialmedia{
   position: relative;
-  left: 1%;
-  height: 35px;
+  height: 10vh;
+  padding-left: 5px;
+  width: 100%;
 }
 #site-main-buffer0{
   position: relative;
