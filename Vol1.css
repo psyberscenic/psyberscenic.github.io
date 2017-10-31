@@ -19,16 +19,16 @@ a:link{
   color: inherit;
 }
 a:visited{
-  text-decoration: none;
+  text-decoration: none;
   color: inherit;
 }
 a:hover{
-  text-decoration: none;
+  text-decoration: none;
   color: inherit;
   cursor: pointer;
 }
 a:active{
-  text-decoration: none;
+  text-decoration: none;
   color: inherit;
 }
 #site-main-background{
@@ -86,7 +86,7 @@ a:active{
 .site-main{
   position: relative;
   top: 0%;
-  height: 3780px;
+  height: 4000px;
   width: 850px;
   border-style: solid;
   margin: 0 auto;
@@ -95,10 +95,8 @@ a:active{
 }
 #site-main-content{
   position: relative;
-  top: 0.25%;
-  left: 1%;
-  height: 99.5%;
-  width: 75%;
+  height: 100%;
+  width: 71%;
   border-style: solid;
   float: left;
   background-color: #3B4042;
@@ -135,7 +133,7 @@ a:active{
   top: 10px;
   left: 1%;
   height: 97%;
-  width: 98%;
+  width: 100%;
   border-style: solid;
   border-color: black;
   color: white;
@@ -154,24 +152,18 @@ a:active{
 }
 #site-main-content-socialmedia{
   position: relative;
-  top: 15px;
   left: 1%;
   height: 35px;
-  width: 98%;
-  border-style: solid;
 }
 #site-main-buffer0{
   position: relative;
-  top: 0.25%;
-  height: 10px;
-  width: 1%;
+  height: 100%;
+  width: 0.5%;
 }
 #site-main-addon{
   position: relative;
-  top: 0.25%;
-  bottom: 5px;
-  height: 99.5%;
-  width: 23%;
+  height: 100%;
+  width: 28.5%;
   border-style: solid;
   float: left;
   background-color: #3B4042;
