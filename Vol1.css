@@ -172,7 +172,8 @@ a:active{
   border-style: solid;
   border-color: black;
   color: white;
-  font-size: 13vh;
+  font-size: 13px;
+  font-size: 3.25vw;
   font-family: sans-serif;
   background-color: black;
   line-height: 25px;
