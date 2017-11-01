@@ -118,6 +118,7 @@ a:active{
   width: 850px;
   border-style: solid;
   margin: 0 auto;
+  padding: 0;
   background-color: black;
 }
 #site-main-content{
