@@ -172,7 +172,7 @@ a:active{
   border-style: solid;
   border-color: black;
   color: white;
-  font-size: 3.25vw;
+  font-size: 13px;
   font-family: sans-serif;
   background-color: black;
   line-height: 25px;
@@ -184,7 +184,7 @@ a:active{
   padding-left: 5px;
   padding-right: 5px;
   float: left;
-  font-size: 1.2vh;
+  font-size: 16px;
 }
 #site-main-content-socialmedia{
   position: relative;
