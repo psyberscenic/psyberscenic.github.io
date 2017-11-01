@@ -199,26 +199,27 @@ a:active{
 #site-main-buffer0{
   position: relative;
   float: left;
-  top: 0%;
   left: 0%;
   height: 100%;
   width: 0.5%;
+  margin: 0;
+  padding: 0;
 }
 #site-main-addon{
   position: relative;
-  top: 0%;
   height: 100%;
   width: 28.5%;
   float: left;
   background-color: #3B4042;
   opacity: 0.5;
+  margin: 0;
+  padding: 0;
 }
 #site-main-addon-content{
   position: absolute;
   bottom: 0%;
   height: 15.35%;
   width: 100%;
-  left: 0%;
 }
 #site-main-addon-title0{
   position: relative;
