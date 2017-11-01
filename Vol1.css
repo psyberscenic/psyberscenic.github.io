@@ -5,6 +5,7 @@
 }
 html, body{
   height: 100%;
+  width: 100%;
   background-image: url("../../website-main-background1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -113,7 +114,6 @@ a:active{
 }
 .site-main{
   position: relative;
-  top: 0%;
   height: 4005px;
   width: 850px;
   border-style: solid;
@@ -123,11 +123,10 @@ a:active{
 }
 #site-main-content{
   position: relative;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-  float: left;
 }
 #site-main-content-left{
   position: relative;
@@ -137,7 +136,7 @@ a:active{
   background-color: #3B4042;
   opacity: 0.5;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
 }
 #site-main-content-title{
   position: relative;
