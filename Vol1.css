@@ -114,17 +114,16 @@ a:active{
 .site-main{
   position: relative;
   top: 0%;
-  height: 3900px;
+  height: 4005px;
   width: 850px;
   border-style: solid;
   margin: 0 auto;
-  display: flex;
   background-color: black;
 }
 #site-main-content{
   position: relative;
-  top: 0%;
-  left: 0%;
+  margin: 0 auto;
+  padding: 0;
   height: 100%;
   width: 100%;
   float: left;
@@ -136,63 +135,66 @@ a:active{
   float: left;
   background-color: #3B4042;
   opacity: 0.5;
+  padding: 0;
+  margin: 0 auto;
 }
 #site-main-content-title{
   position: relative;
   top: 0.1%;
-  left: 0.75%;
   height: 1.5%;
-  width: 98.5%;
-  border-color: black;
-  border-style: solid;
+  width: 100%;
   position: relative;
-  opacity: 0.7;
   color: white;
-  font-size: 13px;
   font-family: sans-serif;
-  background-color: #3B4042;
   opacity: 0.75;
   float: left;
+  margin: 0 auto;
+  padding: 0;
 }
 #site-main-content-title-content{
   position: relative;
-  width: 100%;
+  left: 1%;
+  width: 98.5%;
   height: 100%;
-  text-align: left;
   font-size: 18px;
+  text-align: left;
   padding-left: 5px;
   padding-top: 5px;
+  border-color: black;
+  border-style: solid;
+  background-color: #3B4042;
 }
 #site-main-content-article{
   position: relative;
-  top: 0.25%;
+  top: 0.2%;
   left: 1%;
-  height: 97.2%;
-  width: 100%;
-  border-style: solid;
-  border-color: black;
+  height: 97.25%;
+  width: 99%;
   color: white;
   font-size: 13px;
   font-family: sans-serif;
   background-color: black;
   line-height: 25px;
   float: left;
+  margin: 0 auto;
+  padding: 0;
 }
 #site-main-content-article-content{
   position: relative;
-  padding-top: 2.5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  float: left;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
   font-size: 16px;
 }
 #site-main-content-socialmedia{
   position: relative;
-  top: 0.35%;
-  height: 1%;
+  top: 0.3%;
+  height: 0.8%;
   left: 1%;
   width: 98%;
   float: left;
+  margin: 0 auto;
+  padding: 0;
 }
 #site-main-buffer0{
   position: relative;
