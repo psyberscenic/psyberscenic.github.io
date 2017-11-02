@@ -17,16 +17,16 @@ a:link{
   color: inherit;
 }
 a:visited{
-  text-decoration: none;
+  text-decoration: none;
   color: inherit;
 }
 a:hover{
-  text-decoration: none;
+  text-decoration: none;
   color: inherit;
   cursor: pointer;
 }
 a:active{
-  text-decoration: none;
+  text-decoration: none;
   color: inherit;
 }
 #site-main-background{
@@ -123,8 +123,16 @@ a:active{
   border-style: solid;
   margin: 0 auto;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
+  background-color: #3B4042;
+  opacity: 0.5;
+}
+#picture-main-content{
+  padding-top: 10px;
+  font-size: 13px;
+  color: white;
+  font-family: sans-serif;
 }
 #site-buffer1{
   position: relative;
