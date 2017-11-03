@@ -7,7 +7,7 @@ html, body{
   height: 100%;
   background: url("website-main-background1.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
-  -moz-background-size: cover;git
+  -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
@@ -29,86 +29,32 @@ a:active{
   text-decoration: none;
   color: inherit;
 }
-#site-main-background{
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}
-.stretch{
-  height: 100%;
-  width: 100%;
-}
-#logo-main{
-  position: absolute;
-  top: 2.5%;
-  left: 42.5%;
-  z-index: 1;
-}
-.banner-main{
-  position: relative;
-  top: 0%;
-  height: 125px;
-  width: 1225px;
-  margin: 0 auto;
-}
-#banner-main-picture{
-  position: relative;
-  top: 0%;
-  height: 80%;
-  width: 100%;
-  background-color: #3B4042;
-  opacity: 0.25;
-}
-#banner-main-menu{
-  position: relative;
-  top: 0%;
-  height: 20%;
-  width: 1005;
-  background-color: black;
-  opacity: 0.5;
+.banner-main-menu-links-content{
   color: white;
-}
-#banner-main-menu-left{
-  position: relative;
-  top: 0%;
-  height: 100%;
-  width: 40%;
-  float: left;
-}
-#banner-main-menu-left-links{
-  color: white;
+  width: 100%;
   text-align: left;
   font-size: 12px;
   padding-left: 5px;
   font-weight: bold;
   padding-top: 6px;
   font-family: sans-serif;
+  display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: center;
 }
-#banner-main-menu-right-links{
-  color: white;
-  text-align: right;
-  font-size: 12px;
-  padding-right: 5px;
-  font-weight: bold;
-  padding-top: 6px;
-  font-family: sans-serif;
-}
-#banner-main-menu-middle{
+#banner-main-content{
   position: relative;
-  top: 0%;
-  height: 100%;
-  width: 20%;
-  float: left;
+  height: 7rem;
+  width: 100%;
+  background-color: #3B4042;
+  opacity: 0.25;
 }
-#banner-main-menu-right{
+.navbar#banner-main-menu{
   position: relative;
-  top: 0%;
-  height: 100%;
-  width: 40%;
-  float: left;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
 }
 #site-buffer0{
   position: relative;
