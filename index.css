@@ -29,7 +29,21 @@ a:active{
   text-decoration: none;
   color: inherit;
 }
-.banner-main-menu-links-content{
+.banner-main{
+  height: 5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: table;
+}
+.banner-main-content{
+   font-size: 1rem; 
+   color: white;
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+.banner-main-menu-links-content-sub{
   color: white;
   width: 100%;
   text-align: left;
@@ -43,18 +57,45 @@ a:active{
     display: flex;
     justify-content: center;
 }
-#banner-main-content{
+.banner-main-menu-links-content{
   position: relative;
-  height: 7rem;
-  width: 100%;
-  background-color: #3B4042;
-  opacity: 0.25;
-}
-.navbar#banner-main-menu{
-  position: relative;
+  height: 2rem;
   width: 100%;
   background-color: black;
   opacity: 0.5;
+  display: table;
+}
+#banner-main-menu-links-content-menu{
+  height: 100%;
+  width: 100%;
+  font-size: 0.825rem;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#banner-main-menu-links-content-downloads{
+  display: none;
+}
+#banner-main-menu-links-content-facebook{
+  display: none;
+}
+#banner-main-menu-links-content-twitter{
+  display: none;
+}
+#banner-main-menu-links-content-instagram{
+  display: none;
+}
+#banner-main-menu-links-content-youtube{
+  display: none;
+}
+#banner-main-menu-links-content-soundcloud{
+  display: none;
+}
+#banner-main-menu-links-content-alms{
+  display: none;
+}
+#banner-main-menu-links-content-contact{
+  display: none;
 }
 #site-buffer0{
   position: relative;

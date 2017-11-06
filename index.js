@@ -98,7 +98,48 @@ function main(){
   //Init store
   $(document).ready(initStore());
   //-----Init page-----//
-  //----------//
+  var menuVar = 0;
+  //-----Functionality
+  //Mobile menu
+  $("#banner-main-menu-links-content-menu-link").on('click', function(){
+    if(menuVar==0){
+      $("#banner-main-menu-links-content-downloads").slideDown('slow',function(){
+      });
+      $("#banner-main-menu-links-content-facebook").slideDown('slow',function(){
+      });
+      $("#banner-main-menu-links-content-twitter").slideDown('slow',function(){
+      });
+      $("#banner-main-menu-links-content-instagram").slideDown('slow',function(){
+      });
+      $("#banner-main-menu-links-content-youtube").slideDown('slow',function(){
+      });
+      $("#banner-main-menu-links-content-soundcloud").slideDown('slow',function(){
+      });
+      $("#banner-main-menu-links-content-alms").slideDown('slow',function(){
+      });
+      $("#banner-main-menu-links-content-contact").slideDown('slow',function(){
+      });
+      menuVar = 1;
+    }else{
+      $("#banner-main-menu-links-content-downloads").slideUp('slow',function(){
+      });
+      $("#banner-main-menu-links-content-facebook").slideUp('slow',function(){
+      });
+      $("#banner-main-menu-links-content-twitter").slideUp('slow',function(){
+      });
+      $("#banner-main-menu-links-content-instagram").slideUp('slow',function(){
+      });
+      $("#banner-main-menu-links-content-youtube").slideUp('slow',function(){
+      });
+      $("#banner-main-menu-links-content-soundcloud").slideUp('slow',function(){
+      });
+      $("#banner-main-menu-links-content-alms").slideUp('slow',function(){
+      });
+      $("#banner-main-menu-links-content-contact").slideUp('slow',function(){
+      });
+      menuVar = 0;
+    };
+  });
   //-----Init store main menu-----//
   //Clothing
   $("#banner-shop-menu-clothing-button").on('click', function(){
