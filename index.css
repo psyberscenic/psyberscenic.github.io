@@ -37,7 +37,7 @@ a:active{
   display: table;
 }
 .banner-main-content{
-   font-size: 1rem; 
+   font-size: 1rem;
    color: white;
    display: table-cell;
    text-align: center;
@@ -58,6 +58,28 @@ a:active{
     justify-content: center;
 }
 .banner-main-menu-links-content{
+  position: relative;
+  height: 2rem;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  display: table;
+}
+.content-main{
+  height: 5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: table;
+}
+.content-main-news{
+  height: 40rem;
+  width: 100%;
+  background-color: black;
+  opacity: 0.42;
+  display: table;
+}
+.content-main-news-0{
   position: relative;
   height: 2rem;
   width: 100%;
@@ -97,6 +119,31 @@ a:active{
 #banner-main-menu-links-content-contact{
   display: none;
 }
+#content-main-news-0-title{
+  height: 5rem;
+  width: 100%;
+  display: table;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+}
+#content-main-news-0-title-content{
+  height: 100%;
+  width: 100%;
+  font-size: 0.825rem;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#content-main-news-0-content{
+  position: relative;
+  flex-grow: 1;
+  width: 100%;
+  border-style: solid;
+}
+#content-main-news-0-content{
+
+}
 #site-buffer0{
   position: relative;
   height: 1%;
@@ -125,13 +172,6 @@ a:active{
   position: relative;
   height: 1%;
   width: 100%;
-}
-.content-main{
-  position: relative;
-  top: 0%;
-  height: 175px;
-  width: 1150px;
-  margin: 0 auto;
 }
 #content-main-youtube{
   position: relative;
