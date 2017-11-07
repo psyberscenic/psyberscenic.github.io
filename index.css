@@ -280,6 +280,7 @@ a:active{
 .banner-bottom{
   height: 2rem;
   width: 100%;
+  background-color: #3B4042;
   margin: 0;
   padding: 0;
   display: table;
