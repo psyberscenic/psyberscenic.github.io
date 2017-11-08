@@ -2423,8 +2423,8 @@ a.box:active {
 
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 960px;
-    width: 960px;
+    max-width: 100%;
+    width: 100%;
   }
   .container.is-fluid {
     margin-left: 32px;
@@ -2436,8 +2436,8 @@ a.box:active {
 
 @media screen and (max-width: 1215px) {
   .container.is-widescreen {
-    max-width: 1152px;
-    width: auto;
+    max-width: 100%;
+    width: 100%;
   }
 }
 
