@@ -10170,7 +10170,7 @@ a:active{
   height: 100%;
   width: 100%;
   color: white !important;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -10185,7 +10185,7 @@ a:active{
   display: table;
 }
 .banner-bottom-content{
-  font-size: 0.750rem;
+  font-size: 0.5rem;
   font-style: italic;
   color: white;
   display: table-cell;
@@ -10264,7 +10264,7 @@ a:active{
   height: 100%;
   width: 100%;
   color: white !important;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   padding: 1rem;
   display: table-cell;
   text-align: justify;
