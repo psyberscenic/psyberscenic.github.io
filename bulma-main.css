@@ -10110,7 +10110,7 @@ a:active{
   display: table;
 }
 .banner-main-content{
-   font-size: 1rem;
+   font-size: 1.175rem;
    color: white;
    display: table-cell;
    text-align: center;
@@ -10120,7 +10120,7 @@ a:active{
   color: white;
   width: 100%;
   text-align: left;
-  font-size: 12px;
+  font-size: 16px;
   padding-left: 5px;
   font-weight: bold;
   padding-top: 6px;
@@ -10156,7 +10156,7 @@ a:active{
   height: 100%;
   width: 100%;
   color: white !important;
-  font-size: 1rem;
+  font-size: 1.175rem;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -10170,7 +10170,7 @@ a:active{
   height: 100%;
   width: 100%;
   color: white !important;
-  font-size: 0.825rem;
+  font-size: 1rem;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -10195,7 +10195,7 @@ a:active{
 #banner-main-menu-links-content-menu{
   height: 100%;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.175rem;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -10250,7 +10250,7 @@ a:active{
   height: 100%;
   width: 100%;
   color: white !important;
-  font-size: 1rem;
+  font-size: 1.175rem;
   display: table-cell;
   text-align: left;
   vertical-align: middle;
@@ -10264,7 +10264,7 @@ a:active{
   height: 100%;
   width: 100%;
   color: white !important;
-  font-size: 0.825rem;
+  font-size: 1rem;
   padding: 1rem;
   display: table-cell;
   text-align: justify;
