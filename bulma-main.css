@@ -10229,3 +10229,45 @@ a:active{
   height: 1%;
   width: 100%;
 }
+/*Article CSS*/
+.article-content-0{
+  height: 16rem;
+  width: 100%;
+  background-color: black;
+  opacity: 0.42;
+  display: table;
+}
+.article-content-0-title{
+  height: 2rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+}
+.article-content-0-title-content{
+  padding-left: 0.5rem;
+  height: 100%;
+  width: 100%;
+  color: white !important;
+  font-size: 0.825rem;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+.article-content-0-content{
+  height: 14rem;
+  width: 100%;
+  display: table;
+}
+.article-content-0-content-content{
+  height: 100%;
+  width: 100%;
+  color: white !important;
+  font-size: 0.5rem;
+  padding: 1rem;
+  display: table-cell;
+  text-align: justify;
+  vertical-align: middle;
+  line-height: 1.5rem;
+}
