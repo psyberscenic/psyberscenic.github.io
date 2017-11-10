@@ -10074,13 +10074,6 @@ label.panel-block:hover {
   padding: 0;
   box-sizing: border-box;
 }
-html{
-  background: url("website-main-background1.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 body:before {
   content: "";
   display: block;
