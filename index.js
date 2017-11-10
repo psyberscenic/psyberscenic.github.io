@@ -99,43 +99,116 @@ function main(){
   $(document).ready(initStore());
   //-----Init page-----//
   var menuVar = 0;
+  var item0Var = 0;
+  var item1Var = 0;
+  var item2Var = 0;
+  var item3Var = 0;
+  var item4Var = 0;
+  var item5Var = 0;
   //-----Functionality
   //Mobile menu
+  //WhatItIs
+  $("#menu-0").on('click', function(){
+    if(item0Var==0){
+      $("#menu-0-content").slideDown('slow', function(){
+      });
+      item0Var = 1;
+    }else{
+      $("#menu-0-content").slideUp('slow', function(){
+      });
+      item0Var = 0;
+    };
+  });
+  $("#menu-1").on('click', function(){
+    if(item1Var==0){
+      $("#menu-1-content").slideDown('slow', function(){
+      });
+      item1Var = 1;
+    }else{
+      $("#menu-1-content").slideUp('slow', function(){
+      });
+      item1Var = 0;
+    };
+  });
+  $("#menu-2").on('click', function(){
+    if(item2Var==0){
+      $("#menu-2-content").slideDown('slow', function(){
+      });
+      item2Var = 1;
+    }else{
+      $("#menu-2-content").slideUp('slow', function(){
+      });
+      item2Var = 0;
+    };
+  });
+  $("#menu-3").on('click', function(){
+    if(item3Var==0){
+      $("#menu-3-content").slideDown('slow', function(){
+      });
+      item3Var = 1;
+    }else{
+      $("#menu-3-content").slideUp('slow', function(){
+      });
+      item3Var = 0;
+    };
+  });
+  $("#menu-4").on('click', function(){
+    if(item4Var==0){
+      $("#menu-4-content").slideDown('slow', function(){
+      });
+      item4Var = 1;
+    }else{
+      $("#menu-4-content").slideUp('slow', function(){
+      });
+      item4Var = 0;
+    };
+  });
+  $("#menu-5").on('click', function(){
+    if(item5Var==0){
+      $("#menu-5-content").slideDown('slow', function(){
+      });
+      item5Var = 1;
+    }else{
+      $("#menu-5-content").slideUp('slow', function(){
+      });
+      item5Var = 0;
+    };
+  });
   $("#banner-main-menu-links-content-menu-link").on('click', function(){
     if(menuVar==0){
-      $("#banner-main-menu-links-content-downloads").slideDown('slow',function(){
+      $("#banner-main-menu-links-content-downloads").slideDown('slow', function(){
       });
-      $("#banner-main-menu-links-content-facebook").slideDown('slow',function(){
+      $("#banner-main-menu-links-content-facebook").slideDown('slow', function(){
       });
-      $("#banner-main-menu-links-content-twitter").slideDown('slow',function(){
+      $("#banner-main-menu-links-content-twitter").slideDown('slow', function(){
       });
-      $("#banner-main-menu-links-content-instagram").slideDown('slow',function(){
+      $("#banner-main-menu-links-content-instagram").slideDown('slow', function(){
       });
-      $("#banner-main-menu-links-content-youtube").slideDown('slow',function(){
+      $("#banner-main-menu-links-content-youtube").slideDown('slow', function(){
       });
-      $("#banner-main-menu-links-content-soundcloud").slideDown('slow',function(){
+      $("#banner-main-menu-links-content-soundcloud").slideDown('slow', function(){
       });
-      $("#banner-main-menu-links-content-alms").slideDown('slow',function(){
+      $("#banner-main-menu-links-content-alms").slideDown('slow', function(){
       });
-      $("#banner-main-menu-links-content-contact").slideDown('slow',function(){
+      $("#banner-main-menu-links-content-contact").slideDown('slow', function(){
       });
       menuVar = 1;
     }else{
-      $("#banner-main-menu-links-content-downloads").slideUp('slow',function(){
+      $("#banner-main-menu-links-content-downloads").slideUp('slow', function(){
       });
-      $("#banner-main-menu-links-content-facebook").slideUp('slow',function(){
+      $("#banner-main-menu-links-content-facebook").slideUp('slow', function(){
       });
-      $("#banner-main-menu-links-content-twitter").slideUp('slow',function(){
+      $("#banner-main-menu-links-content-twitter").slideUp('slow', function(){
       });
-      $("#banner-main-menu-links-content-instagram").slideUp('slow',function(){
+      $("#banner-main-menu-links-content-instagram").slideUp('slow', function(){
       });
-      $("#banner-main-menu-links-content-youtube").slideUp('slow',function(){
+      $("#banner-main-menu-links-content-youtube").slideUp('slow', function(){
       });
-      $("#banner-main-menu-links-content-soundcloud").slideUp('slow',function(){
+      $("#banner-main-menu-links-content-soundcloud").slideUp('slow', function(){
       });
-      $("#banner-main-menu-links-content-alms").slideUp('slow',function(){
+      $("#banner-main-menu-links-content-alms").slideUp('slow', function(){
       });
-      $("#banner-main-menu-links-content-contact").slideUp('slow',function(){
+      $("#banner-main-menu-links-content-contact").slideUp('slow', function(){
       });
       menuVar = 0;
     };
