@@ -10304,5 +10304,8 @@ a:active{
   display: none;
 }
 .share-buttons{
+  display: table-cell;
+  align-content: center;
+  vertical-align: middle;
   max-width: none;
 }
