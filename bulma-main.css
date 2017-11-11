@@ -10076,11 +10076,6 @@ label.panel-block:hover {
 }
 /*# sourceMappingURL=bulma.css.map */
 /*Begin PsyberscenicCSS*/
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body::before {
   content: "";
   display: block;
