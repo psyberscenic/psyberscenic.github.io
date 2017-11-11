@@ -292,6 +292,7 @@ table th {
 
 @media screen and (max-width: 420px){
   .share-buttons{
+    margin: 0 auto !important;
     max-width: 300px !important;
   }
 }
@@ -10305,6 +10306,6 @@ a:active{
 }
 .share-buttons{
   width: 100%;
-  margin: 0 auto;
+  margin: none;
   max-width: none;
 }
