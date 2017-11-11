@@ -290,6 +290,12 @@ table th {
   font-size: 0.75rem !important;
 }
 
+@media screen and (max-width: 420px){
+  .share-buttons{
+    max-width: 300px !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .is-size-1-mobile {
     font-size: 3rem !important;
@@ -10296,4 +10302,7 @@ a:active{
 }
 #menu-5-content{
   display: none;
+}
+.share-buttons{
+  max-width: none;
 }
