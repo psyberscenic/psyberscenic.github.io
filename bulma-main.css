@@ -10074,7 +10074,7 @@ label.panel-block:hover {
   padding: 0;
   box-sizing: border-box;
 }
-body:before {
+body::before {
   content: "";
   display: block;
   position: fixed;
