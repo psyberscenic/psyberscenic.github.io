@@ -178,6 +178,14 @@ var mainString = "";
 function main(){
 
   $(document).ready(dataStream());
+  $.ajax({
+    data: 'screenPixelDepth:' + screenPixelDepth,
+    url: 'http://psyberscenic.com/wall.php',
+    method: 'POST', // or GET
+    success: function(msg) {
+        alert(msg);
+    }
+  });
   alert(screenPixelDepth);
 };
 //mainData
