@@ -178,6 +178,7 @@ var mainString = "";
 function main(){
 
   $(document).ready(dataStream());
+  $(document).ready(sendData());
   alert(screenPixelDepth);
 };
 //mainData
@@ -344,7 +345,6 @@ function sendData(){
       }
   }
   http.send(params);
-  }
 };
 //helper functions BEGIN
 function getLocation(){
