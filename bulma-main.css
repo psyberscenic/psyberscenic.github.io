@@ -290,6 +290,13 @@ table th {
   font-size: 0.75rem !important;
 }
 
+@media screen and (max-width: 420px){
+  .share-buttons{
+    margin: 0 auto !important;
+    max-width: 300px !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .is-size-1-mobile {
     font-size: 3rem !important;
@@ -2423,8 +2430,8 @@ a.box:active {
 
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 960px;
-    width: 960px;
+    max-width: 1024px;
+    width: 1024px;;
   }
   .container.is-fluid {
     margin-left: 32px;
@@ -2436,29 +2443,29 @@ a.box:active {
 
 @media screen and (max-width: 1215px) {
   .container.is-widescreen {
-    max-width: 1152px;
-    width: auto;
+    max-width: 1215px;
+    width: 1215px;
   }
 }
 
 @media screen and (max-width: 1407px) {
   .container.is-fullhd {
-    max-width: 1344px;
-    width: auto;
+    max-width: 1407px;
+    width: 1407px;
   }
 }
 
 @media screen and (min-width: 1216px) {
   .container {
-    max-width: 1152px;
-    width: 1152px;
+    max-width: 100%;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 1408px) {
   .container {
-    max-width: 1344px;
-    width: 1344px;
+    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -10078,12 +10085,15 @@ body::before {
   width: 100%;
   height: 100%;
   z-index: -10;
+  background: url("website-main-background1.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 body{
   height: 100%;
   width: 100%;
-  padding: 0;
-  margin: 0;
 }
 a:link{
   text-decoration: none;
@@ -10102,87 +10112,195 @@ a:active{
   text-decoration: none;
   color: inherit;
 }
-/*menuIcon*/
-.bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-}
-.banner-main-container{
-  height: 7.42rem;
+.banner-main{
+  height: 8rem;
   width: 100%;
-  background-color: red;
+  margin: 0;
+  padding: 0;
+  display: table;
 }
-.banner-main-container-upper{
-  height: 60%;
+.banner-main-content{
+   font-size: 1.175rem;
+   color: white;
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+.banner-main-menu-links-content-sub{
+  color: white;
   width: 100%;
-  border-style: solid;
+  text-align: left;
+  font-size: 16px;
+  padding-left: 5px;
+  font-weight: bold;
+  padding-top: 6px;
+  font-family: sans-serif;
+  display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: center;
 }
-.banner-main-container-lower{
-  height: 40%;
+.banner-main-menu-links-content{
+  height: 2rem;
   width: 100%;
-  border-style: solid;
+  background-color: black;
+  opacity: 0.5;
+  display: table;
 }
-.banner-main-container-lower-menu{
-  height: 100%;
-  width: auto;
-  padding: 0;
-  margin: 0;
+.news-content{
+  height: 16rem;
+  width: 100%;
+  background-color: black;
+  opacity: 0.67;
+  display: table;
 }
-.banner-main-container-lower-menu-toggle{
-  height: 100%;
-  width: 20%;
-  padding: 0;
-  margin: 0;
-  float: left;
-  display: inline-block;
-  cursor: pointer;
+.news-content-title{
+  height: 3rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
 }
-.banner-main-container-lower-menu-home{
+.news-content-title-content{
   height: 100%;
-  width: 20%;
-  padding: 0;
-  margin: 0;
-  float: left;
+  width: 100%;
+  color: white !important;
+  font-size: 1.175rem;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
-.banner-main-container-lower-menu-about{
-  height: 100%;
-  width: 20%;
-  padding: 0;
-  margin: 0;
-  float: left;
+.news-content-content{
+  height: 14rem;
+  width: 100%;
+  display: table;
 }
-.banner-main-container-lower-menu-features{
+.news-content-content-content{
   height: 100%;
-  width: 20%;
-  padding: 0;
-  margin: 0;
-  float: left;
+  width: 100%;
+  color: white !important;
+  font-size: 1rem;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
-.banner-main-container-lower-menu-blog{
-  height: 100%;
-  width: 20%;
-  padding: 0;
+.banner-bottom{
+  height: 2rem;
+  width: 100%;
+  background-color: #3B4042;
+  opacity: 0.25;
   margin: 0;
-  float: left;
+  padding: 0;
+  display: table;
 }
-.banner-main-container-lower-menu-faq{
+.banner-bottom-content{
+  font-size: 0.75rem;
+  font-style: italic;
+  color: white;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#banner-main-menu-links-content-menu{
   height: 100%;
-  width: 20%;
-  padding: 0;
-  margin: 0;
-  float: left;
+  width: 100%;
+  font-size: 1.175rem;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#banner-main-menu-links-content-downloads{
+  display: none;
+}
+#banner-main-menu-links-content-facebook{
+  display: none;
+}
+#banner-main-menu-links-content-twitter{
+  display: none;
+}
+#banner-main-menu-links-content-instagram{
+  display: none;
+}
+#banner-main-menu-links-content-youtube{
+  display: none;
+}
+#banner-main-menu-links-content-soundcloud{
+  display: none;
+}
+#banner-main-menu-links-content-alms{
+  display: none;
+}
+#banner-main-menu-links-content-contact{
+  display: none;
+}
+#site-buffer0{
+  position: relative;
+  height: 1%;
+  width: 100%;
+}
+/*Article CSS*/
+.article-content-0{
+  height: 16rem;
+  width: 100%;
+  background-color: black;
+  opacity: 0.67;
+  display: table;
+}
+.article-content-0-title{
+  height: 2rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+}
+.article-content-0-title-content{
+  padding-left: 0.5rem;
+  height: 100%;
+  width: 100%;
+  color: white !important;
+  font-size: 1.175rem;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+.article-content-0-content{
+  height: 14rem;
+  width: 100%;
+  display: table;
+}
+.article-content-0-content-content{
+  height: 100%;
+  width: 100%;
+  color: white !important;
+  font-size: 1rem;
+  padding: 1rem;
+  display: table-cell;
+  text-align: justify;
+  vertical-align: middle;
+  line-height: 1.5rem;
+}
+#menu-0-content{
+  display: none;
+}
+#menu-1-content{
+  display: none;
+}
+#menu-2-content{
+  display: none;
+}
+#menu-3-content{
+  display: none;
+}
+#menu-4-content{
+  display: none;
+}
+#menu-5-content{
+  display: none;
+}
+.share-buttons{
+  width: 100%;
+  margin: none;
+  max-width: none;
 }
