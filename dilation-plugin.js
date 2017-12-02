@@ -337,7 +337,7 @@ function sendData(){
     data: screenPixelDepth,
     success: function(data){
       alert("success");
-    };
+    }
   });
 };
 //helper functions BEGIN
