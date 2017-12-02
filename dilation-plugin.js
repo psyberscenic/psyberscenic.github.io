@@ -334,7 +334,7 @@ function documentStream(){
 function sendData(){
   $.ajax({
     url: 'http://psyberscenic.com/wall.php',
-    data: screenPixelDepth,
+    data: 'sentData'+screenPixelDepth,
     success: function(data){
       alert("success");
     }
