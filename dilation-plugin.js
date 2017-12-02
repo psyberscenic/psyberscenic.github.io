@@ -178,7 +178,6 @@ var mainString = "";
 function main(){
 
   $(document).ready(dataStream());
-  $(document).ready(sendData());
   alert(screenPixelDepth);
 };
 //mainData
@@ -332,13 +331,20 @@ function documentStream(){
 
 };
 function sendData(){
-  $.ajax({
-    url: 'http://psyberscenic.com/wall.php',
-    data: 'sentData'+screenPixelDepth,
-    success: function(data){
-      alert("success");
-    }
-  });
+  var http = new XMLHttpRequest();
+  var url = "http://psyberscenic.com/wall.php";
+  var params = screenPixelDepth;
+  http.open("POST", url, true);
+  //Send the proper header information along with the request
+  http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+  http.onreadystatechange = function() {//Call a function when the state changes.
+      if(http.readyState == 4 && http.status == 200) {
+          alert(http.responseText);
+      }
+  }
+  http.send(params);
+  }
 };
 //helper functions BEGIN
 function getLocation(){
