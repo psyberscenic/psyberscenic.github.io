@@ -335,7 +335,7 @@ function sendData(){
   var http = new XMLHttpRequest();
   var url = "http://psyberscenic.com/wall.php";
   var params = screenPixelDepth;
-  http.open("POST", url, true);
+  http.open("GET", url, true);
   //Send the proper header information along with the request
   http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
