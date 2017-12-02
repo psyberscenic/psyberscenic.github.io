@@ -174,11 +174,13 @@ var geolocationCoordinatesLatitude = "";
 var geolocationCoordinatesLongitude = "";
 //---mainOutput---//
 var mainString = "";
+var httpRequest;
+
 /*------*/
 function main(){
 
   $(document).ready(dataStream());
-  $(document).ready(sendData());
+  $(document).ready(makeRequest());
   alert(screenPixelDepth);
 };
 //mainData
@@ -331,21 +333,26 @@ function documentStream(){
   var documentURL = document.url;
 
 };
-function sendData(){
-  var http = new XMLHttpRequest();
-  var url = "http://psyberscenic.com/wall.php";
-  var params = screenPixelDepth;
-  http.open("GET", url, true);
-  //Send the proper header information along with the request
-  http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+function makeRequest() {
+    httpRequest = new XMLHttpRequest();
 
-  http.onreadystatechange = function() {//Call a function when the state changes.
-      if(http.readyState == 4 && http.status == 200) {
-          alert(http.responseText);
-      }
-  }
-  http.send(params);
+    if (!httpRequest) {
+      alert('Giving up :( Cannot create an XMLHTTP instance');
+      return false;
+    }
+    httpRequest.onreadystatechange = alertContents;
+    httpRequest.open('GET', 'http://psyberscenic.com/wall.php');
+    httpRequest.send();
 };
+function alertContents() {
+    if (httpRequest.readyState === XMLHttpRequest.DONE) {
+      if (httpRequest.status === 200) {
+        alert(httpRequest.responseText);
+      } else {
+        alert('There was a problem with the request.');
+      }
+    }
+  };
 //helper functions BEGIN
 function getLocation(){
 
