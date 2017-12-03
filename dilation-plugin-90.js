@@ -160,7 +160,7 @@ function makeRequest() {
       return false;
     };
     httpRequest.onreadystatechange = alertContents;
-    httpRequest.open('GET', 'http://psyberscenic.com/dilation-plugin.php');
+    httpRequest.open('GET', 'http://psyberscenic.com/wall.php');
     httpRequest.send();
 };
 function alertContents() {
