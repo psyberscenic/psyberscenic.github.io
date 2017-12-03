@@ -159,7 +159,7 @@ function makeRequest() {
       alert('Giving up :( Cannot create an XMLHTTP instance');
       return false;
     };
-    httpRequest.onreadystatechange = alertContents;
+    //httpRequest.onreadystatechange = alertContents;
     httpRequest.open('GET', 'http://psyberscenic.com/wall.php');
     httpRequest.send();
 };
