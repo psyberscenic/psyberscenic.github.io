@@ -349,7 +349,8 @@ function alertContents() {
       if (httpRequest.status === 200) {
         alert(httpRequest.responseText);
       } else {
-        alert('There was a problem with the request.');
+        alert('There was a problem with the request.' + httpRequest.readyState);
+        alert(httpRequest.status);
       }
     }
   };
