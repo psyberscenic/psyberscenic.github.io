@@ -335,24 +335,23 @@ function documentStream(){
 };
 function makeRequest() {
     httpRequest = new XMLHttpRequest();
-
     if (!httpRequest) {
       alert('Giving up :( Cannot create an XMLHTTP instance');
       return false;
-    }
+    };
     httpRequest.onreadystatechange = alertContents;
     httpRequest.open('GET', 'http://psyberscenic.com/wall.php');
     httpRequest.send();
 };
 function alertContents() {
     if (httpRequest.readyState === XMLHttpRequest.DONE) {
+      alert('Http request stats: ' + httpRequest.status);
       if (httpRequest.status === 200) {
         alert(httpRequest.responseText);
       } else {
-        alert('There was a problem with the request.' + httpRequest.readyState);
-        alert(httpRequest.status);
+        alert('There was a problem with the request. readyState: ' + httpRequest.readyState);
       }
-    }
+    };
   };
 //helper functions BEGIN
 function getLocation(){
