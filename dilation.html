@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dilation: "Let the Light In"</title>
+    <link href="dilation.css" style="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body style="width: 100% !important; height: 100% !important;">
+    <!--player BEGIN-->
+    <div class="columns is-size-7-mobile is-size-7-tablet is-size-7-desktop is-gapless is-multiline audio-player">
+      <!--style BEGIN-->
+      <div class="column is-gapless is-2 audio-player-style">
+        <!--style-choices BEGIN-->
+        <div class="columns is-gapless is-multiline audio-player-style-container">
+          <!--classic BEGIN-->
+          <div class="column is-gapless flex-container flex-container-center audio-player-style-container-classic">
+            <a class="style-select-classic">
+              <div class="audio-player-style-container-classic-select">
+              </div>
+            </a>
+          </div>
+          <!--classic END-->
+          <!--stock BEGIN-->
+          <div class="column is-gapless flex-container flex-container-center audio-player-style-container-stock">
+            <a class="style-select-stock">
+              <div class="audio-player-style-container-stock-select">
+              </div>
+            </a>
+          </div>
+          <!--stock END-->
+          <!--artist BEGIN-->
+          <div class="column is-gapless flex-container flex-container-center audio-player-style-container-artist">
+            <a class="style-select-artist">
+              <div class="audio-player-style-container-artist-select">
+              </div>
+            </a>
+          </div>
+          <!--artist END-->
+        </div>
+      </div>
+      <!--style END-->
+      <!--controls BEGIN-->
+      <div class="column is-gapless audio-player-controls">
+        <div class="columns is-gapless is-multiline audio-player-controls-container">
+          <!--shuffle BEGIn-->
+          <div class="column is-3 is-gapless flex-container flex-container-center audio-player-controls-container-shuffle">
+            <div class="audio-player-controls-container-shuffle-select">
+              <p class="audio-player-controls-container-shuffle-select-button">
+                <a class="shuffle-select">
+                  X
+                </a>
+              </p>
+            </div>
+          </div>
+          <!--shuffle END-->
+          <!--main BEGIN-->
+          <div class="column is-6 is-gapless audio-player-controls-container-main">
+            <!--center BEGIN-->
+            <div class="columns is-gapless is-multiline audio-player-controls-container-main-container">
+              <div class="column is-gapless audio-player-controls-container-main-container-center">
+                <div class="columns is-gapless audio-player-controls-container-main-container-contents" style="height: 100%;">
+                  <!--previous BEGIN-->
+                  <div class="column is-gapless flex-container flex-container-center audio-player-controls-container-main-container-previous">
+                    <div class="audio-player-controls-container-main-container-previous-select">
+                      <p class="audio-player-controls-container-main-container-previous-select-button">
+                        <a class="previous-select">
+                          <|
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <!--previous END-->
+                  <!--play BEGIN-->
+                  <div class="column is-gapless flex-container flex-container-center audio-player-controls-container-main-container-center-container-play">
+                    <div class="audio-player-controls-container-main-container-center-container-play-select">
+                      <p class="audio-player-controls-container-main-container-center-container-play-select-button">
+                        <a class="play-select">
+                          >
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <!--play END-->
+                  <!--next BEGIN-->
+                  <div class="column is-gapless audio-player-controls-container-main-container-center-container-next">
+                    <div class="audio-player-controls-container-main-container-center-container-next-select">
+                      <p class="audio-player-controls-container-main-container-center-container-next-select-button">
+                        <a class="next-select">
+                          |>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <!--next END-->
+                </div>
+              </div>
+              <!--stream BEGIN-->
+              <div class="column is-gapless is-full audio-player-controls-container-main-container-center-container-stream">
+                <!--
+                <div class="player-controls scrubber">
+                  <p class="artist-info">
+                  </p>
+                  <span id="seek-obj-container">
+                    <progress id="seek-obj" value="0" max="1"></progress>
+                  </span>
+                  <small style="float: left; position: relative; left: 15px;" id="start-time"></small>
+                  <small style="float: right; position: relative; right: 20px;" id="end-time"></small>
+                </div>
+                !-->
+              </div>
+              <!--stream END-->
+            </div>
+          </div>
+          <!--main END-->
+          <!--repeat BEGIN-->
+          <div class="column is-3 is-gapless flex-container flex-container-center audio-player-controls-container-repeat">
+            <div class="audio-player-controls-container-repeat-select">
+              <p class="audio-player-controls-container-repeat-select-button">
+                <a class="repeat-select">
+                  &infin;
+                </a>
+              </p>
+            </div>
+          </div>
+          <!--repeat END-->
+        </div>
+      </div>
+      <!--controls END-->
+      <!--connectivity BEGIN-->
+      <div class="column is-gapless is-2 audio-player-connectivity">
+        <div class="columns is-gapless is-multiline audio-player-connectivity-container">
+          <!--downvote BEGIN-->
+          <div class="column is-gapless flex-container flex-container-center audio-player-connectivity-container-downvote">
+            <div class="audio-player-connectivity-container-downvote-select">
+              <p class="audio-player-connectivity-container-downvote-select-button">
+                <a class="connectivity-downvote">
+                  &darr;
+                </a>
+              </p>
+            </div>
+          </div>
+          <!--downvote END-->
+          <!--upvote BEGIn-->
+          <div class="column is-gapless flex-container flex-container-center audio-player-connectivity-container-upvote">
+            <div class="audio-player-connectivity-container-upvote-select">
+              <p class="audio-player-connectivity-container-upvote-select-button">
+                <a class="connectivity-upvote">
+                  &uarr;
+                </a>
+              </p>
+            </div>
+          </div>
+          <!--upvote END-->
+          <!--download BEGIn-->
+          <div class="column is-gapless audio-player-connectivity-container-download">
+            <div class="audio-player-connectivity-container-download-select">
+              <p class="audio-player-connectivity-container-download-select-button">
+                <a class="connectivity-download">
+                  &plus;
+                </a>
+              </p>
+            </div>
+          </div>
+          <!--download END-->
+          <!--share BEGIn-->
+          <div class="column is-gapless audio-player-connectivity-container-share">
+            <div class="audio-player-connectivity-container-share-select">
+              <p class="audio-player-connectivity-container-share-select-button">
+                <a class="connectivity-share">
+                  S
+                </a>
+              </p>
+            </div>
+          </div>
+          <!--share END-->
+        </div>
+      </div>
+      <!--connectivity END-->
+    </div>
+    <!--player END-->
+    <!--scripts BEGIN-->
+    <script src="https://code.jquery.com/jquery-3.2.0.js"></script>
+    <script src="dilation.js"></script>
+    <!--scripts END-->
+  </body>
+</html>
